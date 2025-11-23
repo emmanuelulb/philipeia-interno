@@ -1,0 +1,14 @@
+<div class="graph-container">
+    <h2>Gráfico de Processos</h2>
+
+    <div class="chart-area">
+        <div class="pie-chart-placeholder"></div>
+    </div>
+
+    <div class="legend-area">
+        <div *ngFor="let item of processData" class="legend-item">
+            <div class="legend-color" [style.background-color]="item.color"></div>
+            <span class="legend-label">{{ item.label }} ({{ item.count }}%)</span>
+        </div>
+    </div>
+</div>
