@@ -1,0 +1,54 @@
+.sidebar {
+    width: 250px; /* Largura fixa do menu */
+    background-color: #2c2c2c; /* Cor de fundo escura */
+    color: white;
+    padding: 20px 0;
+    min-height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo-section {
+    padding: 0 20px 30px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.sidebar-logo {
+    width: 80px; /* Ajuste o tamanho da logo */
+    margin-bottom: 10px;
+}
+
+.logo-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.logo-section p {
+    font-size: 0.8em;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-button {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nav-button:hover,
+.nav-button.active {
+    background-color: #ff6a00; /* Cor Laranja */
+    font-weight: bold;
+}
