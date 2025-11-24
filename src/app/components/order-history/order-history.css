@@ -1,0 +1,78 @@
+/* src/app/components/order-history/order-history.component.css */
+
+/* 1. Container Principal (Fundo Cinza) */
+.history-list {
+    background-color: #e8e8e8; /* Fundo cinza claro do container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 100%; 
+    overflow-y: auto; /* Permite rolagem se a lista for longa */
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* 2. Estilo do Card Individual */
+.order-card {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    /* Linha Laranja à Esquerda (simula a cor da marca) */
+    border-left: 5px solid #ff6a00; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.client-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2c2c2c;
+    margin-bottom: 5px;
+}
+
+/* 3. Estilo das Linhas de Informação (Valor, CNPJ, Status) */
+.info-line {
+    display: flex;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    flex-wrap: wrap; /* Garante que os itens quebrem a linha se necessário */
+}
+
+.label {
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.data {
+    margin-right: 15px;
+}
+
+/* Ajuste para o CNPJ/CPF não ficar grudado no item anterior */
+.cnpj {
+    margin-left: 10px;
+}
+
+/* 4. Estilo dos Badges de Status */
+.status-badge {
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-right: 15px;
+    /* Cor de fundo padrão (será ajustada conforme o status real) */
+    background-color: #f0ad4e; /* Laranja para "Em agendamento" */
+}
+
+/* Se você quiser cores específicas para cada status, adicione classes condicionais no HTML
+   e use o seguinte CSS (exemplo):
+   .status-em-producao { background-color: #5bc0de; } 
+   .status-em-processo-de-entrega { background-color: #337ab7; }
+*/

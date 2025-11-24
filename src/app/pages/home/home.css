@@ -1,0 +1,67 @@
+/* Container principal que usa Flexbox para Sidebar e Conteúdo */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh; /* Garante que ocupe a tela toda */
+}
+
+/* Área de Conteúdo (ocupa o espaço restante) */
+.main-content {
+    flex-grow: 1; /* Ocupa o espaço que sobrar do sidebar */
+    padding: 20px;
+    background-color: #f5f5f5; /* Fundo cinza claro para o conteúdo */
+}
+
+/* Estilização do Cabeçalho Superior */
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 1em;
+}
+
+.search-icon {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-search {
+    background-color: #ff6a00; /* Cor Laranja */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #444;
+}
+
+.user-icon {
+    margin-left: 8px;
+    font-size: 1.2em;
+}

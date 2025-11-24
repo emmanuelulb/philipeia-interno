@@ -1,0 +1,22 @@
+<nav class="sidebar">
+    <div class="logo-section">
+        <img src="/assets/logo.png" alt="Philipeia Logo" class="sidebar-logo">
+        <h2>PHILIPEIA</h2>
+        <p>GERENCIAMENTO DE PEDIDOS</p>
+    </div>
+
+    <ul class="nav-links">
+        <li>
+            <button class="nav-button" (click)="goToRoute('/cadastrar-pedido')">Cadastrar Pedido</button>
+        </li>
+        <li>
+            <button class="nav-button" (click)="goToRoute('/consultar-pedidos')">Consultar Pedidos</button>
+        </li>
+        <li>
+            <button class="nav-button" (click)="goToRoute('/agenda')">Agenda de pedidos</button>
+        </li>
+        <li>
+            <button class="nav-button active" (click)="goToRoute('/home')">Histórico de pedidos</button>
+        </li>
+    </ul>
+</nav>
