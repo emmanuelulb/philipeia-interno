@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.css'],
 })
 export class LoginComponent {
+  onLogin(){}
+  onCadastro(){}
 
 }
