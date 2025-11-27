@@ -15,7 +15,7 @@
 }
 
 .sidebar-logo {
-    width: 80px;
+    width: 150px;
     margin-bottom: 10px;
 }
 
@@ -25,8 +25,8 @@
 }
 
 .logo-section p {
-    font-size: 0.8em;
-    opacity: 0.7;
+    font-size: 1em;
+    font-family: sans-serif; 
     margin-top: 5px;
 }
 
