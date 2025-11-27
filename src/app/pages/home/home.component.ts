@@ -13,7 +13,6 @@ import { Order } from '../../models/order.model';
 })
 export class HomeComponent {
 
-  // Dados de exemplo para demonstrar o funcionamento do OrderHistoryComponent
   orders: Order[] = [
     {
       id: 1,

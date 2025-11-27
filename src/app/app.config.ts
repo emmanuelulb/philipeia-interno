@@ -10,3 +10,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes)
   ]
 };
+
+export class App {
+  logoPath: string = '/assets/logotipo.png'; }

@@ -11,15 +11,14 @@
 .login-box {
     text-align: center;
     padding: 50px;
-    
+}
 
-/* Estilo do Logo e Título */
 .logo-area {
     margin-bottom: 50px;
 }
 
 .logo-image {
-    width: 150px;
+    width: 250px;
     height: auto;
     margin-bottom: 20px;
 }
@@ -49,9 +48,14 @@
 
 .btn-login, .btn-cadastro {
     background-color: white;
-    color: #2c2c2c; 
+    color: #2c2c2c;
+    display: grid;
+    place-items: center 
 }
 
 .btn-login:hover, .btn-cadastro:hover {
     background-color: #f0f0f0;
-}}
+    display: grid;
+    place-items: center
+}
+
