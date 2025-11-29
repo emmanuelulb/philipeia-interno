@@ -31,9 +31,16 @@ export class HomeComponent {
       status: 'Em produção',
       dateMade: new Date(2025, 1, 5),
       deliveryDate: new Date(2025, 1, 20)
+    },
+    {
+      id: 3,
+      clientName: 'Empresa Exemplo',
+      value: 1200.5,
+      cnpj: '12.345.678/0001-90',
+      status: 'Entregue',
+      dateMade: new Date(2025, 0, 10),
+      deliveryDate: new Date(2025, 0, 15)
     }
   ];
-
-  
 
 }
