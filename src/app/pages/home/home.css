@@ -1,17 +1,15 @@
-/* Container principal que usa Flexbox para Sidebar e Conteúdo */
+
 .dashboard-container {
     display: flex;
-    min-height: 100vh; /* Garante que ocupe a tela toda */
+    min-height: 100vh;
 }
 
-/* Área de Conteúdo (ocupa o espaço restante) */
 .main-content {
-    flex-grow: 1; /* Ocupa o espaço que sobrar do sidebar */
+    flex-grow: 1;
     padding: 20px;
-    background-color: #f5f5f5; /* Fundo cinza claro para o conteúdo */
+    background-color: #f5f5f5;
 }
 
-/* Estilização do Cabeçalho Superior */
 .top-header {
     display: flex;
     align-items: center;
@@ -34,6 +32,7 @@
     padding: 10px;
     flex-grow: 1;
     font-size: 1em;
+    font-family: sans-serif; 
 }
 
 .search-icon {
@@ -44,13 +43,14 @@
 }
 
 .btn-search {
-    background-color: #ff6a00; /* Cor Laranja */
+    background-color: #ff6a00;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    font-family: sans-serif; 
     margin-left: 10px;
 }
 
@@ -58,10 +58,12 @@
     display: flex;
     align-items: center;
     font-weight: bold;
+    font-family: sans-serif; 
     color: #444;
 }
 
 .user-icon {
     margin-left: 8px;
     font-size: 1.2em;
+    font-family: sans-serif; 
 }

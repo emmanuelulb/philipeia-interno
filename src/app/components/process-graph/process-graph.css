@@ -1,11 +1,9 @@
-/* src/app/components/process-graph/process-graph.component.css */
-
 .graph-container {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    height: 100%; /* Para preencher a altura do painel lateral */
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,6 +12,7 @@
 h2 {
     font-size: 1.5em;
     font-weight: bold;
+    font-family: sans-serif; 
     color: #333;
     margin-bottom: 30px;
 }
@@ -24,16 +23,14 @@ h2 {
     margin-bottom: 30px;
 }
 
-/* 🎨 Truque de CSS: Cria um gráfico de pizza usando conic-gradient */
 .pie-chart-placeholder {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    /* Define as fatias baseadas nos dados simulados (40%, 25%, 35%) */
     background: conic-gradient(
-        #FF6A00 0% 40%,        /* 40% - NOVOS PEDIDOS */
-        #f0ad4e 40% 65%,        /* 25% (40+25=65) - EM PRODUÇÃO */
-        #CC5500 65% 100%       /* 35% (65+35=100) - EM ENTREGA */
+        #FF6A00 0% 40%,
+        #f0ad4e 40% 65%,
+        #CC5500 65% 100%
     );
 }
 
@@ -54,10 +51,10 @@ h2 {
     height: 20px;
     border-radius: 4px;
     margin-right: 15px;
-    /* A cor de fundo é definida dinamicamente no HTML */
 }
 
 .legend-label {
     color: #444;
     font-size: 0.9em;
+    font-family: sans-serif; 
 }

@@ -1,6 +1,4 @@
 import { Routes } from '@angular/router';
-
-// 1. IMPORTE OS COMPONENTES
 import { LoginComponent } from './pages/login/login.component';
 import { HomeComponent } from './pages/home/home.component';
 

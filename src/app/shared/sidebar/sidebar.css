@@ -1,6 +1,7 @@
 .sidebar {
-    width: 250px; /* Largura fixa do menu */
-    background-color: #2c2c2c; /* Cor de fundo escura */
+    width: 250px;
+    height:max-content;
+    background-color: #2c2c2c;
     color: white;
     padding: 20px 0;
     min-height: 100vh;
@@ -15,7 +16,7 @@
 }
 
 .sidebar-logo {
-    width: 80px; /* Ajuste o tamanho da logo */
+    width: 150px;
     margin-bottom: 10px;
 }
 
@@ -25,8 +26,8 @@
 }
 
 .logo-section p {
-    font-size: 0.8em;
-    opacity: 0.7;
+    font-size: 1em;
+    font-family: sans-serif; 
     margin-top: 5px;
 }
 
@@ -49,6 +50,6 @@
 
 .nav-button:hover,
 .nav-button.active {
-    background-color: #ff6a00; /* Cor Laranja */
+    background-color: #ff6a00;
     font-weight: bold;
 }
